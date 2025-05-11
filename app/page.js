@@ -1,8 +1,10 @@
 "use client";
+import { useRouter } from 'next/navigation';
 import { useRef, useState } from 'react';
 import { User, Lock, UserCog, ChevronDown, Eye, EyeOff } from 'lucide-react';
 import "../styles/login.css"
 export default function LoginPage() {
+  const router = useRouter(); 
   const formRef = useRef(null);
   const [showPassword, setShowPassword] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -46,6 +48,7 @@ export default function LoginPage() {
       console.log('Login Data:', loginData);
       // Reset the form after submission
       formRef.current.reset();
+      router.push('/dashboard/principal');
       
     } catch (error) {
       console.error('Error:', error);
@@ -54,6 +57,8 @@ export default function LoginPage() {
       // Always re-enable the button whether success or failure
       setIsSubmitting(false);
     }
+    
+
   };
 
   return (
