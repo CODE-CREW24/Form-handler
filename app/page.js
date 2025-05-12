@@ -2,7 +2,7 @@
 import { useRouter } from 'next/navigation';
 import { useRef, useState } from 'react';
 import { User, Lock, UserCog, ChevronDown, Eye, EyeOff } from 'lucide-react';
-import "../styles/login.css"
+import "@/public/styles/login.css";
 export default function LoginPage() {
   const router = useRouter(); 
   const formRef = useRef(null);
