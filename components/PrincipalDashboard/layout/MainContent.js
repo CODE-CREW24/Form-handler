@@ -1,7 +1,7 @@
 "use client"
 
-import Header from '@/components/dashboard/Header';
-import ContentContainer from '@/components/dashboard/ContentContainer';
+import Header from '@/components/PrincipalDashboard/dashboard/Header';
+import ContentContainer from '@/components/PrincipalDashboard/dashboard/ContentContainer';
 
 export default function MainContent() {
   return (

@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import Sidebar from './Sidebar';
-import MainContent from './MainContent';
+import Sidebar from '@/components/PrincipalDashboard/layout/Sidebar';
+import MainContent from '@/components/PrincipalDashboard/layout/MainContent';
 
 export default function Dashboard() {
   const [sidebarActive, setSidebarActive] = useState(false);

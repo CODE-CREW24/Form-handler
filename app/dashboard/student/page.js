@@ -1,6 +1,6 @@
 "use client"
 
-import Dashboard from '@/components/PrincipalDashboard/layout/Dashboard';
+import Dashboard from '@/components/StudentDashboard/layout/Dashboard';
 
 export default function App() {
   return (
