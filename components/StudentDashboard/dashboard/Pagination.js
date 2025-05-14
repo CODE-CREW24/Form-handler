@@ -8,7 +8,7 @@ import {
 export default function Pagination() {
   return (
     <div className="p-4 border-t border-slate-100 flex justify-between items-center">
-      <span className="text-sm text-slate-500">Showing 2 of 8 departments</span>
+      <span className="text-sm text-slate-500">Showing 2 of 8 Forms</span>
       <div className="flex space-x-1">
         <button className="px-3 py-1 rounded border border-slate-200 text-slate-600 hover:bg-slate-50">
           <FontAwesomeIcon icon={faChevronLeft} className="text-xs" />

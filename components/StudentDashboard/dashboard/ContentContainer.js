@@ -2,7 +2,7 @@
 
 import StatsCards from './Stats/StatsCards';
 import QuickAccessCards from './QuickAccess/QuickAccessCards';
-import DepartmentOverview from './DepartmentOverview/DepartmentOverview';
+import DepartmentOverview from './StudentOverview/StudentOverview';
 
 export default function ContentContainer() {
   return (

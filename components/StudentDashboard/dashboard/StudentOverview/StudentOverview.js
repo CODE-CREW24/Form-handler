@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faPlus, faDownload
 } from '@fortawesome/free-solid-svg-icons';
-import { departments } from '@/data/department';
-import DesktopDepartmentTable from './DesktopDepartmentTable';
-import MobileDepartmentCards from './MobileDepartmentCards';
+import { Personal } from '@/data/Personal';
+import DesktopDepartmentTable from './DesktopFormTable';
+import MobileDepartmentCards from './MobileFormCards';
 import Pagination from '../Pagination';
 
 export default function DepartmentOverview() {
@@ -27,10 +27,10 @@ export default function DepartmentOverview() {
       </div>
       
       {/* Desktop Table */}
-      <DesktopDepartmentTable departments={departments} />
+      <DesktopDepartmentTable Personal={Personal} />
 
       {/* Mobile Cards */}
-      <MobileDepartmentCards departments={departments} />
+      <MobileDepartmentCards Personal={Personal} />
       
       {/* Pagination */}
       <Pagination />

@@ -3,8 +3,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faChevronRight,
-  faBell,
-  faFileCirclePlus
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function QuickAccessCard({ icon, iconBg, iconColor, title, description }) {

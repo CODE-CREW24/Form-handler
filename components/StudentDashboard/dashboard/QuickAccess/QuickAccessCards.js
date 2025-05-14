@@ -13,7 +13,7 @@ export default function QuickAccessCards() {
         iconBg="bg-amber-100"
         iconColor="text-amber-600"
         title="Pending Requests"
-        description="15 items require your attention"
+        description="You have 3 pending requests "
       />
 
       <QuickAccessCard 
