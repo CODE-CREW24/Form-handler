@@ -2,8 +2,7 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faThLarge, faBuilding, faChalkboardTeacher, 
-  faChartBar, faCog, faSignOutAlt, faSchool, faBell
+  faThLarge,  faSignOutAlt, faSchool,faUserGraduate,faFileLines
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function Sidebar({ active }) {
@@ -28,7 +27,7 @@ export default function Sidebar({ active }) {
           </div>
           <div>
             <p className="font-medium">Dr. Smith</p>
-            <span className="text-sm text-slate-500">Principal</span>
+            <span className="text-sm text-slate-500">Teacher</span>
           </div>
         </div>
       </div>
@@ -39,21 +38,14 @@ export default function Sidebar({ active }) {
           <span>Dashboard</span>
         </a>
         <a href="#" className="flex items-center space-x-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 text-slate-600">
-          <FontAwesomeIcon icon={faBuilding} className="w-5 text-center" />
-          <span>Departments</span>
+          <FontAwesomeIcon icon={faUserGraduate} className="w-5 text-center" />
+          <span>Students</span>
         </a>
         <a href="#" className="flex items-center space-x-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 text-slate-600">
-          <FontAwesomeIcon icon={faChalkboardTeacher} className="w-5 text-center" />
-          <span>Teachers</span>
+          <FontAwesomeIcon icon={faFileLines} className="w-5 text-center" />
+          <span>Forms</span>
         </a>
-        <a href="#" className="flex items-center space-x-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 text-slate-600">
-          <FontAwesomeIcon icon={faBell} className="w-5 text-center" />
-          <span>Pending Forms</span>
-        </a>
-        <a href="#" className="flex items-center space-x-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 text-slate-600">
-          <FontAwesomeIcon icon={faCog} className="w-5 text-center" />
-          <span>Settings</span>
-        </a>
+        
       </nav>
       
       <div className="p-4 border-t">
